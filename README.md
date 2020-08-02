@@ -1,3 +1,7 @@
+# React App - Hooks App
+
+React web application that implements exercises to learn hooks. It implements tests.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
