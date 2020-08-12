@@ -22,6 +22,13 @@ const useFetch = (url) => {
             data: data
           });
         }
+      })
+      .catch(() => {
+        setState({
+          data: null,
+          loading: false,
+          error: 'Could not get data'
+        });
       });
   }, [url]);
 
